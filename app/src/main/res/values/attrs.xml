@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SDColorChooser">
+        <attr name="backgroundColor" format="color" />
+        <attr name="shadowColor" format="color" />
+        <attr name="shadowWidth" format="dimension" />
+        <attr name="pivotHeight" format="dimension" />
+
+        <attr name="pivotPosition" format="enum">
+            <enum name="position_top_left" value="1" />
+            <enum name="position_top_center" value="2" />
+            <enum name="position_top_right" value="3" />
+            <enum name="position_bottom_left" value="4" />
+            <enum name="position_bottom_center" value="5" />
+            <enum name="position_bottom_right" value="6" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SDCircleImageView">
+        <attr name="showBorder" format="boolean" />
+        <attr name="borderColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="innerColor" format="color" />
+        <attr name="innerBitmap" format="reference" />
+    </declare-styleable>
+</resources>

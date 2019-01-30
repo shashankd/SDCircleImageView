@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SDCircleImageView">
+        <attr name="showBorder" format="boolean" />
+        <attr name="borderColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="innerColor" format="color" />
+        <attr name="innerBitmap" format="reference" />
+    </declare-styleable>
+</resources>
