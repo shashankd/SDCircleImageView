@@ -2,18 +2,18 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'SDCircleImageView'
-    bintrayName = 'SDCircleImageView'
+    bintrayName = 'sdcircleimageview'
 
     publishedGroupId = 'com.sdcircleimageview'
     libraryName = 'SDCircleImageView'
-    artifact = 'SDCircleImageView'
+    artifact = 'sdcircleimageview'
 
     libraryDescription = 'SDCircleImageView - Circular Image View with border.'
 
     siteUrl = 'https://github.com/shashankd/SDCircleImageView'
     gitUrl = 'https://github.com/shashankd/SDCircleImageView'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'shashankdegloorkar'
     developerName = 'Shashank Degloorkar'
