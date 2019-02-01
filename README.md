@@ -1,7 +1,7 @@
 ## SDCircleImageView Android Library
     SDCircleImageView is a easy to use and memory efficient ImageView with customisable background and border color
 
-![SDCircleImageView] (https://github.com/shashankd/SDCircleImageView/blob/master/Screenshot.png)
+![SDCircleImageView](https://github.com/shashankd/SDCircleImageView/blob/master/Screenshot.png)
 
 We can customise background color and other dimension properties.
 Pass the list of drawables (ImageDrawables or ColorDrawables)
