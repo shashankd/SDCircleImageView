@@ -6,5 +6,9 @@
         <attr name="borderWidth" format="dimension" />
         <attr name="innerColor" format="color" />
         <attr name="innerBitmap" format="reference" />
+        <attr name="textForeground" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="shadowColor" format="color" />
+        <attr name="shadowSize" format="dimension" />
     </declare-styleable>
 </resources>

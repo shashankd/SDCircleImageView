@@ -1,19 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:id="@+id/parent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
     android:orientation="vertical">
 
     <com.sdcircleimageview.SDCircleImageView
-        android:id="@+id/sdCircleView"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:id="@+id/sdCircleView_1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         custom:borderColor="@color/colorAccent"
         custom:borderWidth="@dimen/ring_width"
         custom:showBorder="true" />
 
-</RelativeLayout>
+    <com.sdcircleimageview.SDCircleImageView
+        android:id="@+id/sdCircleView_2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        custom:borderColor="@color/colorAccent"
+        custom:borderWidth="@dimen/ring_width"
+        custom:innerColor="#CCCCCC"
+        custom:shadowColor="@android:color/black"
+        custom:shadowSize="0dp"
+        custom:showBorder="true"
+        custom:textColor="@color/colorPrimary"
+        custom:textForeground="SS" />
+
+    <com.sdcircleimageview.SDCircleImageView
+        android:id="@+id/sdCircleView_3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        custom:borderColor="#CCCCCC"
+        custom:borderWidth="@dimen/ring_width"
+        custom:innerColor="@color/colorAccent"
+        custom:showBorder="true" />
+
+</LinearLayout>
